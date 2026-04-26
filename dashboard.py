@@ -13,13 +13,8 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(
-        r'C:\Users\13142\Desktop\supply-chain-analytics\data\DataCoSupplyChainDataset.csv',
-        encoding='latin-1'
-    )
-    drop_cols = ['Customer Email', 'Customer Password', 'Customer Street',
-                 'Product Description', 'Product Image']
-    df = df.drop(columns=drop_cols)
+    url = "https://raw.githubusercontent.com/Karant15/Supply-Chain-Analytics/master/data/supply_chain_sample.csv"
+    df = pd.read_csv(url, encoding='latin-1')
     df['order date (DateOrders)'] = pd.to_datetime(
         df['order date (DateOrders)'], errors='coerce'
     )
