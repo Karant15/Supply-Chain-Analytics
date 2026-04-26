@@ -47,34 +47,34 @@ That is not a small operational issue. That is a systemic failure that costs com
 
 ---
 
-## 📊 Dashboard — 5 Tabs
+## 📊 Dashboard - 5 Tabs
 
-### Tab 1 — Executive Summary
+### Tab 1 - Executive Summary
 The C-suite view. Late delivery rate by region and shipping mode side by side.
 The story is immediate — every region is failing, but some are worse than others.
 
-### Tab 2 — Delivery Performance
+### Tab 2 - Delivery Performance
 Where exactly are we failing? Late delivery breakdown by region with a distribution
 chart showing how bad the delays actually are. Most late orders are only 1-2 days
 late — which means this is fixable with better carrier management, not a structural problem.
 
-### Tab 3 — Revenue & Profit
+### Tab 3 - Revenue & Profit
 Which product categories make the most money? Which customer segments spend the most?
 Monthly sales trend showing seasonality patterns across 3 years of real data.
 
-### Tab 4 — ABC Inventory Segmentation
+### Tab 4 - ABC Inventory Segmentation
 Classic supply chain Six Sigma tool applied to real data. Class A products generate
 80% of revenue from a small number of SKUs — these need priority stock protection.
 Class C products are consuming logistics bandwidth without proportional return.
 
-### Tab 5 — DMAIC Six Sigma Report
+### Tab 5 - DMAIC Six Sigma Report
 This tab is what makes this project different from every other supply chain dashboard
 on GitHub. Full Lean Six Sigma structured analysis — Define, Measure, Analyze, Improve,
 Control — applied to the data findings. This is how a Black Belt thinks about a problem.
 
 ---
 
-## SQL Analysis — 15 Business Queries
+## SQL Analysis - 15 Business Queries
 
 Beyond the dashboard, I loaded the full dataset into SQLite and wrote 15 SQL queries
 answering real business questions. Results are saved as CSV files in `/outputs/sql/`.
