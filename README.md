@@ -36,14 +36,14 @@ That is not a small operational issue. That is a systemic failure that costs com
 
 | Finding | Detail |
 |---------|--------|
-| On-time delivery rate | **42.7%** — industry standard is 85%+ |
+| On-time delivery rate | **42.7%** - industry standard is 85%+ |
 | Total late orders | **103,400** out of 180,519 |
-| Worst performing region | **Central Africa — 60.7% late rate** |
-| Best performing region | **Canada — 51.9% late rate** |
-| Highest revenue category | **Fishing — $2.4M+** |
+| Worst performing region | **Central Africa - 60.7% late rate** |
+| Best performing region | **Canada - 51.9% late rate** |
+| Highest revenue category | **Fishing - $2.4M+** |
 | Average profit margin | **12.1%** across all categories |
 | Total revenue analyzed | **$36.7 million** |
-| Date range | January 2015 — January 2018 |
+| Date range | January 2015 - January 2018 |
 
 ---
 
